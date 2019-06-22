@@ -234,7 +234,7 @@
 
             if (watchedEvent === "" || watchedEvent === event.type) {
               var $this = $(this),
-                  target = slider.controlNav.index($this);
+                  target = slider.controlNav.Index_index($this);
 
               if (!$this.hasClass(namespace + 'active')) {
                 slider.direction = (target > slider.currentSlide) ? "next" : "prev";
@@ -259,7 +259,7 @@
 
             if (watchedEvent === "" || watchedEvent === event.type) {
               var $this = $(this),
-                  target = slider.controlNav.index($this);
+                  target = slider.controlNav.Index_index($this);
 
               if (!$this.hasClass(namespace + 'active')) {
                 (target > slider.currentSlide) ? slider.direction = "next" : slider.direction = "prev";
@@ -1021,7 +1021,7 @@
       slider.vars.added(slider);
     };
     slider.removeSlide = function(obj) {
-      var pos = (isNaN(obj)) ? slider.slides.index($(obj)) : obj;
+      var pos = (isNaN(obj)) ? slider.slides.Index_index($(obj)) : obj;
 
       // update count
       slider.count -= 1;

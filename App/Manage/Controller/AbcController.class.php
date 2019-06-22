@@ -180,6 +180,7 @@ class AbcController extends CommonController {
 			//M验证
 			$data               = I('post.');
 			$data['content']    = I('content', '', '');
+			$data['pic_props']    = htmlentities(I('props', '', ''));
 			$data['start_time'] = I('start_time', date('Y-m-d H:i:s'));
 			$data['end_time']   = I('end_time', date('Y-m-d H:i:s', strtotime('+1 months')));
 			switch ($data['type']) {
@@ -232,6 +233,7 @@ class AbcController extends CommonController {
 			$data['id'] = intval($data['id']);
 
 			$data['content']    = I('content', '', '');
+			$data['pic_props']    = htmlentities(I('props', '', ''));
 			$data['start_time'] = I('start_time', date('Y-m-d H:i:s'));
 			$data['end_time']   = I('end_time', date('Y-m-d H:i:s', strtotime('+1 months')));
 			switch ($data['type']) {

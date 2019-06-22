@@ -41,7 +41,7 @@
                  <button class="btn btn-default" type="button" onclick="doConfirmBatch('{:U('del', array('batchFlag' => 1,'pid' => $pid))}', '确实要删除选择项吗？')"><em class="glyphicon glyphicon-remove-circle"></em> 删除</button>                 
                  <button class="btn btn-default" type="button" onclick="goUrl('{:U('trach', array('pid' => $pid))}')"><em class="glyphicon glyphicon-trash"></em> 回收站</button>
             <else/>
-                <button class="btn btn-primary" type="button" onclick="goUrl('{:U('index', array('pid'=>$pid))}')"><em class="glyphicon glyphicon-chevron-left"></em> 返回</button>
+                <button class="btn btn-primary" type="button" onclick="goUrl('{:U('Index_index', array('pid'=>$pid))}')"><em class="glyphicon glyphicon-chevron-left"></em> 返回</button>
                  <button class="btn btn-default" type="button" onclick="doGoBatch('{:U('restore',  array('batchFlag' => 1, 'pid' => $pid))}')"><em class="glyphicon glyphicon-retweet"></em> 还原</button>                 
                  <button class="btn btn-default" type="button" onclick="doConfirmBatch('{:U('clear', array('batchFlag' => 1, 'pid' => $pid))}', '确实要彻底删除选择项吗？')"><em class="glyphicon glyphicon-remove-circle"></em> 彻底删除</button> 
             </if>

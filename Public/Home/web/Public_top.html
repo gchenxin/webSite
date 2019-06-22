@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><yang:sitetitle /></title>
+    <meta name="keywords" content="<yang:sitekeywords />" />
+    <meta name="description" content="<yang:sitedescription />" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" href="__PUBLIC__/assets/images/favicon.ico">
+
+    <!-- CSS
+    ============================================ -->
+    <!-- Bootstrap CSS -->
+    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Linear Icon CSS -->
+    <link href="__PUBLIC__/assets/css/linear-icon.css" rel="stylesheet">
+
+    <!-- Plugins CSS -->
+    <link href="__PUBLIC__/assets/css/plugins.css" rel="stylesheet">
+
+    <!-- Helper CSS -->
+    <link href="__PUBLIC__/assets/css/helper.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="__PUBLIC__/assets/css/main.css" rel="stylesheet">
+
+    <!-- Modernizer JS -->
+    <script src="__PUBLIC__/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+</head>
+
+<body>
+
+<!--=============================================
+=            Header One         =
+=============================================-->
+
+<div class="header-container header-sticky">
+
+    <!--=======  header top  =======-->
+
+    <div class="header-top pt-15 pb-15">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center text-md-left mb-sm-15">
+                    <span class="header-top-text">欢迎访问 !</span>
+                </div>
+                <div class="col-12 col-md-6">
+
+                    <!--=======  header top dropdowns  =======-->
+
+                    <div class="header-top-dropdown d-flex justify-content-center justify-content-md-end">
+
+                        <!--=======  single dropdown  =======-->
+
+
+                        <div class="single-dropdown">
+                            <a href="#" id="changeAccount"><span id="accountMenuName">个人中心 </span></a>
+                        </div>
+
+                        <span class="separator pl-15 pr-15">|</span>
+
+                        <!--=======  End of single dropdown  =======-->
+
+                        <!--=======  single dropdown  =======-->
+
+
+                        <div class="single-dropdown">
+                            <a href="#" id="changeAccount"><span id="accountMenuName">订单中心 </span></a>
+                        </div>
+
+                        <span class="separator pl-15 pr-15">|</span>
+
+                        <!--=======  End of single dropdown  =======-->
+
+                        <!--=======  single dropdown  =======-->
+
+
+                        <div class="single-dropdown">
+                            <a href="Public/login.html" id="changeAccount"><span id="accountMenuName">登录 </span></a>
+                        </div>
+
+
+                    </div>
+
+
+                    <!--=======  End of header top dropdowns  =======-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=======  End of header top  =======-->
+
+    <!--=======  Menu Top  =======-->
+
+    <div class="menu-top pt-35 pb-35 pt-sm-20 pb-sm-20">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-3 col-md-3 text-center text-md-left mb-sm-20">
+                    <!--=======  logo  =======-->
+
+                    <div class="logo">
+                        <a href="/">
+                            <img src="__PUBLIC__/assets/images/logo.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+
+                    <!--=======  End of logo  =======-->
+                </div>
+                <div class="col-12 col-lg-6 col-md-5 mb-sm-20">
+                    <!--=======  Search bar  =======-->
+                    <form action="Index_index.html">
+                        <div class="search-bar">
+                            <input type="search" placeholder="Search entire store here ...">
+                            <button><i class="lnr lnr-magnifier"></i></button>
+                        </div>
+                    </form>
+
+                    <!--=======  End of Search bar  =======-->
+                </div>
+                <div class="col-12 col-lg-3 col-md-4">
+                    <!--=======  menu top icons  =======-->
+
+                    <div class="menu-top-icons d-flex justify-content-center align-items-center justify-content-md-end">
+                        <!--=======  single icon  =======-->
+
+                        <div class="single-icon mr-20">
+                            <a href="wishlist.html">
+                                <i class="lnr lnr-heart"></i>
+                                <span class="text">Wishlist</span>
+                                <span class="count">0</span>
+                            </a>
+                        </div>
+
+                        <!--=======  End of single icon  =======-->
+
+                        <!--=======  single icon  =======-->
+
+                        <div class="single-icon">
+                            <a href="javascript:void(0)" id="cart-icon">
+                                <i class="lnr lnr-cart"></i>
+                                <span class="text">My Cart</span>
+                                <span class="count">0</span>
+                            </a>
+                            <!-- cart floating box -->
+                            <div class="cart-floating-box hidden" id="cart-floating-box">
+                                <div class="cart-items">
+                                    <div class="cart-float-single-item d-flex">
+                                        <span class="remove-item" id="remove-item"><a href="#"><i class="fa fa-times"></i></a></span>
+                                        <div class="cart-float-single-item-image">
+                                            <a href="single-product.html"><img src="__PUBLIC__/assets/images/products/product01.jpg" class="img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="cart-float-single-item-desc">
+                                            <p class="product-title"> <a href="single-product.html">Duis pulvinar obortis eleifend </a></p>
+                                            <p class="price"><span class="quantity">1 x</span> $20.50</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart-float-single-item d-flex">
+                                        <span class="remove-item"><a href="#"><i class="fa fa-times"></i></a></span>
+                                        <div class="cart-float-single-item-image">
+                                            <a href="single-product.html"><img src="__PUBLIC__/assets/images/products/product02.jpg" class="img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="cart-float-single-item-desc">
+                                            <p class="product-title"> <a href="single-product.html">Fusce ultricies dolor vitae</a></p>
+                                            <p class="price"><span class="quantity">1 x</span> $20.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-calculation">
+                                    <div class="calculation-details">
+                                        <p class="total">Subtotal <span>$22</span></p>
+                                    </div>
+                                    <div class="floating-cart-btn text-center">
+                                        <a class="floating-cart-btn" href="checkout.html">Checkout</a>
+                                        <a class="floating-cart-btn" href="cart.html">View Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of cart floating box -->
+                        </div>
+
+                        <!--=======  End of single icon  =======-->
+                    </div>
+
+                    <!--=======  End of menu top icons  =======-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=======  End of Menu Top  =======-->
+
+    <!--=======  navigation menu  =======-->
+
+    <div class="navigation-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <!--=======  category menu  =======-->
+
+                    <div class="hero-side-category">
+                        <!-- Category Toggle Wrap -->
+                        <div class="category-toggle-wrap">
+                            <!-- Category Toggle -->
+                            <button class="category-toggle"> <span class="lnr lnr-text-align-left"></span> Browse Categories <span class="lnr lnr-chevron-down"></span></button>
+                        </div>
+
+                        <!-- Category Menu -->
+                        <nav class="category-menu">
+                            <ul>
+                                <li><a href="List_product.html">Sofas &amp; Chairs</a></li>
+                                <li class="menu-item-has-children"><a href="List_product.html">Drawing Room</a>
+
+                                    <!-- Mega Category Menu Start -->
+                                    <ul class="category-mega-menu">
+                                        <li class="menu-item-has-children">
+                                            <a class="megamenu-head" href="List_product.html">Living Chairs</a>
+                                            <ul>
+                                                <li><a href="List_product.html">Sofas</a></li>
+                                                <li><a href="List_product.html">Armchairs</a></li>
+                                                <li><a href="List_product.html">Dining Chairs &amp; Benches</a></li>
+                                                <li><a href="List_product.html">Desk Chairs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a class="megamenu-head" href="List_product.html">Sofa</a>
+                                            <ul>
+                                                <li><a href="List_product.html">Dining Tables</a></li>
+                                                <li><a href="List_product.html">Dining Chairs</a></li>
+                                                <li><a href="List_product.html">Side Boards</a></li>
+                                                <li><a href="List_product.html">Coffee Tables</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a class="megamenu-head" href="List_product.html">Storage</a>
+                                            <ul>
+                                                <li><a href="List_product.html">Chair &amp; Sofas</a></li>
+                                                <li><a href="List_product.html">Tables</a></li>
+                                                <li><a href="List_product.html">Sets</a></li>
+                                                <li><a href="List_product.html">Loungers</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul><!-- Mega Category Menu End -->
+
+                                </li>
+                                <li class="menu-item-has-children"><a href="List_product.html">Dinning Room</a>
+
+                                    <!-- Mega Category Menu Start -->
+                                    <ul class="category-mega-menu">
+                                        <li class="menu-item-has-children">
+                                            <a class="megamenu-head" href="List_product.html">Living Chairs</a>
+                                            <ul>
+                                                <li><a href="List_product.html">Sofas</a></li>
+                                                <li><a href="List_product.html">Armchairs</a></li>
+                                                <li><a href="List_product.html">Dining Chairs &amp; Benches</a></li>
+                                                <li><a href="List_product.html">Desk Chairs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a class="megamenu-head" href="List_product.html">Sofa</a>
+                                            <ul>
+                                                <li><a href="List_product.html">Dining Tables</a></li>
+                                                <li><a href="List_product.html">Dining Chairs</a></li>
+                                                <li><a href="List_product.html">Side Boards</a></li>
+                                                <li><a href="List_product.html">Coffee Tables</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a class="megamenu-head" href="List_product.html">Storage</a>
+                                            <ul>
+                                                <li><a href="List_product.html">Chair &amp; Sofas</a></li>
+                                                <li><a href="List_product.html">Tables</a></li>
+                                                <li><a href="List_product.html">Sets</a></li>
+                                                <li><a href="List_product.html">Loungers</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul><!-- Mega Category Menu End -->
+
+                                </li>
+                                <li><a href="List_product.html">Out Door Room</a></li>
+                                <li><a href="List_product.html">Room living</a></li>
+                                <li><a href="List_product.html">Estilo</a></li>
+                                <li><a href="List_product.html">Living Chairs</a></li>
+                                <li class="hidden"><a href="List_product.html">New Sofas</a></li>
+                                <li class="hidden"><a href="List_product.html">Sleight Sofas</a></li>
+                                <li><a href="#" id="more-btn"><span class="lnr lnr-plus-circle"></span> More Categories</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!--=======  End of category menu =======-->
+                </div>
+                <div class="col-12 col-lg-9">
+                    <!-- navigation section -->
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <yang:navlist typeid="0" >
+                                    <if condition="($navlist['sort'] eq 1) and ($navlist['child'] neq null)">
+                                        <li class="active menu-item-has-children">
+                                    <elseif condition="$navlist['sort'] eq 1" />
+                                        <li class="active">
+                                    <elseif condition="$navlist['child'] eq null" />
+                                        <li>
+                                    <else />
+                                        <li class="menu-item-has-children">
+                                    </if>
+                                    <a href="{$navlist.url}">{$navlist.name}</a>
+                                    <notempty name="navlist['child']">
+                                        <ul class="sub-menu">
+                                            <volist name="navlist['child']" id="item">
+                                                <if condition="$item['child'] eq null">
+                                                    <li>
+                                                <else />
+                                                    <li class="menu-item-has-children">
+                                                </if>
+                                                    <a href="{$item|get_url}">{$item.name}</a>
+                                                    <notempty name="item['child']">
+                                                        <ul class="sub-menu">
+                                                            <volist name="item['child']" id="vo">
+                                                                <li><a href="{$vo|get_url}">{$vo.name}</a></li>
+                                                            </volist>
+                                                        </ul>
+                                                    </notempty>
+                                                </li>
+                                            </volist>
+                                        </ul>
+                                    </notempty>
+                                    </li>
+                                </yang:navlist>
+<!--                                <li class="menu-item-has-children"><a href="List_product.html">Shop</a>-->
+<!--                                    <ul class="sub-menu">-->
+<!--                                        <li class="menu-item-has-children"><a href="shop-4-column.html">shop grid</a>-->
+<!--                                            <ul class="sub-menu">-->
+<!--                                                <li><a href="shop-3-column.html">shop 3 column</a></li>-->
+<!--                                                <li><a href="shop-4-column.html">shop 4 column</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                        <li class="menu-item-has-children"><a href="shop-list.html">shop List</a>-->
+<!--                                            <ul class="sub-menu">-->
+<!--                                                <li><a href="shop-list.html">shop List</a></li>-->
+<!--                                                <li><a href="shop-list-left-sidebar.html">shop List Left Sidebar</a></li>-->
+<!--                                                <li><a href="shop-list-right-sidebar.html">shop List Right Sidebar</a></li>-->
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                    </ul>-->
+<!--                                </li>-->
+
+<!--                                <li class="menu-item-has-children"><a href="#">PAGES</a>-->
+<!--                                    <ul class="mega-menu three-column">-->
+<!--                                        <li><a href="#">Column One</a>-->
+<!--                                            <ul>-->
+<!--                                                <li><a href="cart.html">Cart</a></li>-->
+<!--                                                <li><a href="checkout.html">Checkout</a></li>-->
+
+<!--                                            </ul>-->
+<!--                                        </li>-->
+<!--                                    </ul>-->
+<!--                                </li>-->
+<!--                                <li><a href="contact.html">CONTACT</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- end of navigation section -->
+                </div>
+                <div class="col-12 d-block d-lg-none">
+                    <!-- Mobile Menu -->
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=======  End of navigation menu  =======-->
+</div>
+
+<!--=====  End of Header One  ======-->

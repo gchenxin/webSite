@@ -96,7 +96,7 @@
 function postData() {
 	var _postForm = $('form').serialize();
 	$.ajax({
-		url: 'index.php?step=3',
+		url: 'Index_index.html.php?step=3',
 		type: 'POST',
 		dataType: 'json',
 		data: _postForm,

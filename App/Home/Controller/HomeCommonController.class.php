@@ -29,7 +29,7 @@ use Think\Controller;
 //公共验证控制器HomeCommonController
 class HomeCommonController extends Controller {
 	public $uid;
-	public $email;
+	public $username;
 	public $uf; //标识
 	// 空操作，404页面
 	public function _empty() {
@@ -40,7 +40,7 @@ class HomeCommonController extends Controller {
 
 	protected function _initialize() {
 		$this->uid   = intval(get_cookie('uid'));
-		$this->email = get_cookie('email');
+		$this->username = get_cookie('username');
 		$this->uf    = get_cookie('uf');
 		if (C('CFG_WEBSITE_CLOSE') == 1) {
 			exit_msg(C('CFG_WEBSITE_CLOSE_INFO'));
@@ -51,7 +51,7 @@ class HomeCommonController extends Controller {
 		}
 
 		if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
-			$this->email = '';
+			$this->username = '';
 		}
 	}
 

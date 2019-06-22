@@ -1,0 +1,102 @@
+<!--=============================================
+	=            Hero Area One         =
+	=============================================-->
+
+<div class="hero-area pt-15 mb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  slider container  =======-->
+
+                <div class="slider-container">
+                    <!--=======  hero slider one  =======-->
+
+                    <div class="hero-slider-one">
+                        <!--=======  slider item  =======-->
+                        <yang:abc id="1">
+                        <?php $props = json_decode(html_entity_decode($abc['pic_props']),true); ?>
+                        <div class="hero-slider-item" style="background-image: url('__PUBLIC__{$abc.content}')">
+                            <!--=======  slider content  =======-->
+
+                            <div class="slider-content  d-flex flex-column justify-content-center align-items-start h-100">
+                                <p>{$props['description']}</p>
+                                <h1>{$props['title']}</h1>
+                                <a href="{$abc.url}" class="pataku-btn slider-btn-1">{$props['button']}</a>
+                            </div>
+
+                            <!--=======  End of slider content  =======-->
+                        </div>
+                        </yang:abc>
+                        <!--=======  End of slider item  =======-->
+
+                        <!--=======  slider item  =======-->
+
+<!--                        <div class="hero-slider-item slider-bg-2">-->
+<!--                            &lt;!&ndash;=======  slider content  =======&ndash;&gt;-->
+
+<!--                            <div class="slider-content d-flex flex-column justify-content-center align-items-start h-100">-->
+<!--                                <p>Ultra bright slimline led table lamp. A light for perfect color matching</p>-->
+<!--                                <h1>TABLE <span>LAMPS</span></h1>-->
+<!--                                <a href="List_product.html" class="pataku-btn slider-btn-1">SHOP NOW</a>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash;=======  End of slider content  =======&ndash;&gt;-->
+<!--                        </div>-->
+
+                        <!--=======  End of slider item  =======-->
+
+                    </div>
+
+                    <!--=======  End of hero slider one  =======-->
+                </div>
+
+                <!--=======  End of slider container  =======-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 pt-40 pb-40">
+                <!--=======  feature area  =======-->
+
+                <div class="feature-area">
+                    <!--=======  single feature  =======-->
+                    <yang:abc id="2" limit="4">
+                    <div class="single-feature mb-md-20 mb-sm-20">
+                        {$abc.content}
+                    </div>
+                    </yang:abc>
+
+                    <!--=======  End of single feature  =======-->
+<!--                    &lt;!&ndash;=======  single feature  =======&ndash;&gt;-->
+
+<!--                    <div class="single-feature mb-md-20 mb-sm-20">-->
+<!--                        <span class="icon"><i class="lnr lnr-phone"></i></span>-->
+<!--                        <p>Support 24/7 <span>Contact us 24 hours a day</span></p>-->
+<!--                    </div>-->
+
+<!--                    &lt;!&ndash;=======  End of single feature  =======&ndash;&gt;-->
+<!--                    &lt;!&ndash;=======  single feature  =======&ndash;&gt;-->
+
+<!--                    <div class="single-feature mb-xxs-20">-->
+<!--                        <span class="icon"><i class="lnr lnr-undo"></i></span>-->
+<!--                        <p>100% Money Back <span>You have 30 days to Return</span></p>-->
+<!--                    </div>-->
+
+<!--                    &lt;!&ndash;=======  End of single feature  =======&ndash;&gt;-->
+<!--                    &lt;!&ndash;=======  single feature  =======&ndash;&gt;-->
+
+<!--                    <div class="single-feature mb-xxs-20">-->
+<!--                        <span class="icon"><i class="lnr lnr-gift"></i></span>-->
+<!--                        <p>Payment Secure <span>We ensure secure payment</span></p>-->
+<!--                    </div>-->
+
+                    <!--=======  End of single feature  =======-->
+                </div>
+
+                <!--=======  End of feature area  =======-->
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--=====  End of Hero Area One  ======-->

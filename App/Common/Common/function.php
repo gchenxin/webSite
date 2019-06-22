@@ -441,7 +441,7 @@ function get_abc($id, $flag = 0) {
 			foreach ($mat[1] as $k => $v) {
 				$rep[$k] = '';
 				foreach ($detail as $k2 => $v2) {
-					$search = array('{$id}', '{$title}', '{$content}', '{$url}', '{$sort}',
+					$search = array('{$id}', '{$title}', '{$content}', '{$url}', '{$sort}', '{$pic_props}',
 						'{$width}', '{$height}', '{$autoindex}', '{$autoindex+1}', '{$autoindex+2}');
 					$replace = array($v2['id'], $v2['title'], $v2['content'], $v2['url'], $v2['sort'],
 						$abc['width'], $abc['height'], $k2, $k2 + 1, $k2 + 2);

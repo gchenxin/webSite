@@ -19,7 +19,7 @@
                     <button class="btn btn-default" type="button" onclick="doGoBatch('{:U('repair', array('batchFlag' => 1))}')"><em class="glyphicon glyphicon-th-list"></em> 数据表修复</button>
                     <button class="btn btn-default" type="button" onclick="goUrl('{:U('restore')}')"><em class="glyphicon glyphicon-th-list"></em> 还原管理</button>
                 <else/>
-                    <button class="btn btn-primary" type="button" onclick="goUrl('{:U('index')}')"><em class="glyphicon glyphicon-plus-sign"></em> 返回</button>
+                    <button class="btn btn-primary" type="button" onclick="goUrl('{:U('Index_index')}')"><em class="glyphicon glyphicon-plus-sign"></em> 返回</button>
                     <button class="btn btn-default" type="button" onclick="doGoBatch('{:U('restore')}')"><em class="glyphicon glyphicon-th-list"></em> 还原</button>
                     <button class="btn btn-default" type="button" onclick="doConfirmBatch('{:U('clear')}', '确实要彻底删除选择项吗？')"><em class="glyphicon glyphicon-th-list"></em> 删除</button>
                 </if>

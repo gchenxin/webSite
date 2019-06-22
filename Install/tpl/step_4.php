@@ -40,7 +40,7 @@ $(function(){
 
 function postData() {
 	$.ajax({
-		url: 'index.php?step=4',
+		url: 'Index_index.html.php?step=4',
 		type: 'POST',
 		dataType: 'json',
 		data: {act: 'db'},
