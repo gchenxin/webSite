@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="meta description">
+
+    <!-- Site title -->
+    <title>Melani-Multipurpose eCommerce Bootstrap 4 Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="__PUBLIC__/assets/img/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font-Awesome CSS -->
+    <link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- IonIcon CSS -->
+    <link href="__PUBLIC__/assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- helper class css -->
+    <link href="__PUBLIC__/assets/css/helper.min.css" rel="stylesheet">
+    <!-- Plugins CSS -->
+    <link href="__PUBLIC__/assets/css/plugins.css" rel="stylesheet">
+    <!-- Main Style CSS -->
+    <link href="__PUBLIC__/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<!-- header area start -->
+<header>
+
+    <!-- main menu area start -->
+    <div class="header-main transparent-menu sticky">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="logo">
+                        <a href="index.html">
+                            <yang:freeblock name='Logo' />
+<!--                            <img src="" alt="Brand logo">-->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="main-header-inner">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <yang:navlist typeid='0'>
+                                        <if condition="$navlist['sort'] eq 1" >
+                                            <li class="active">
+                                        <else />
+                                            <li>
+                                        </if>
+                                        <a href="{$navlist.url}">{$navlist.name}<i class="fa fa-angle-down"></i></a>
+                                        <notempty name="navlist['child']">
+                                            <ul class="dropdown">
+                                                <volist name="navlist['child']" id="item">
+                                                    <li><a href="{$vo|get_url}">{$vo.name}</a></li>
+                                                </volist>
+                                            </ul>
+                                        </notempty>
+                                        </li>
+                                    </yang:navlist>
+<!--                                    <li><a href="#">shop <i class="fa fa-angle-down"></i></a>-->
+<!--                                        <ul class="dropdown">-->
+<!--                                            <li><a href="#">shop grid layout <i class="fa fa-angle-right"></i></a>-->
+<!--                                                <ul class="dropdown">-->
+<!--                                                    <li><a href="shop-grid-left-sidebar.html">shop grid left-->
+<!--                                                        sidebar</a></li>-->
+<!--                                                    <li><a href="shop-grid-right-sidebar.html">shop grid right-->
+<!--                                                        sidebar</a></li>-->
+<!--                                                    <li><a href="shop-grid-full-width.html">shop grid full width</a></li>-->
+<!--                                                </ul>-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li><a href="contact-us.html">Contact us</a></li>-->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 ml-auto">
+                    <div class="header-setting-option">
+                        <div class="search-wrap">
+                            <button type="submit" class="search-trigger"><i class="ion-ios-search-strong"></i></button>
+                        </div>
+                        <div class="header-mini-cart">
+                            <div class="mini-cart-btn">
+                                <i class="ion-bag"></i>
+                                <span class="cart-notification">2</span>
+                            </div>
+                            <ul class="cart-list">
+                                <li>
+                                    <div class="cart-img">
+                                        <a href="product-details.html"><img src="__PUBLIC__/assets/img/cart/cart-1.jpg"
+                                                                            alt=""></a>
+                                    </div>
+                                    <div class="cart-info">
+                                        <h4><a href="product-details.html">simple product 09</a></h4>
+                                        <span>$60.00</span>
+                                    </div>
+                                    <div class="del-icon">
+                                        <i class="fa fa-times"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cart-img">
+                                        <a href="product-details.html"><img src="__PUBLIC__/assets/img/cart/cart-2.jpg"
+                                                                            alt=""></a>
+                                    </div>
+                                    <div class="cart-info">
+                                        <h4><a href="product-details.html">virtual product 10</a></h4>
+                                        <span>$50.00</span>
+                                    </div>
+                                    <div class="del-icon">
+                                        <i class="fa fa-times"></i>
+                                    </div>
+                                </li>
+                                <li class="mini-cart-price">
+                                    <span class="subtotal">subtotal : </span>
+                                    <span class="subtotal-price ml-auto">$110.00</span>
+                                </li>
+                                <li class="checkout-btn">
+                                    <a href="#">checkout</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="settings-top">
+                            <div class="settings-btn">
+                                <i class="ion-android-person"></i>
+                            </div>
+                            <ul class="settings-list">
+                                <li>
+                                    my account <i class="fa fa-angle-down"></i>
+                                    <ul>
+                                        <li><a href="#">my account</a></li>
+                                        <li><a href="#">login</a></li>
+                                        <li><a href="#">register</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-lg-none">
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main menu area end -->
+
+    <!-- Start Search Popup -->
+    <div class="box-search-content search_active block-bg close__top">
+        <form class="minisearch" action="#">
+            <div class="field__search">
+                <input type="text" placeholder="Search Our Catalog">
+                <div class="action">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+        </form>
+        <div class="close__wrap">
+            <span>close</span>
+        </div>
+    </div>
+    <!-- End Search Popup -->
+
+</header>
+<!-- header area end -->

@@ -94,6 +94,7 @@ class SpecialController extends CommonController {
 		$data['delete_status'] = 0;
 		$data['aid']           = session(C('USER_AUTH_KEY'));
 		$clickFlag             = I('clickFlag', 0, 'intval');
+        $data['data_source']       = I('data_source', '', '');
 
 		if ($clickFlag) {
 			$data['click'] = rand(10, 95);
@@ -184,6 +185,7 @@ class SpecialController extends CommonController {
 		$data['content']      = I('content', '', '');
 		$data['publish_time'] = I('publish_time', date('Y-m-d H:i:s'));
 		$data['update_time']  = date('Y-m-d H:i:s');
+        $data['data_source']      = I('data_source', '', '');
 
 		$flags = I('flags', array(), 'intval');
 		$pic   = $data['litpic'];

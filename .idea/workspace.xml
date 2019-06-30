@@ -2,115 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e7ed72-3a88-47a4-a9b2-0d69efcf1b67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App/Common/Common/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Common/Common/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Home/shop/List_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c71cf874-63e8-49aa-a78a-b5224d18ef4f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c71cf874-63e8-49aa-a78a-b5224d18ef4f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Common/Conf/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Common/Conf/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Home/Controller/HomeCommonController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Home/Controller/HomeCommonController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/Controller/AbcController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/Controller/AbcController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Abc_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Abc_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Abc_addDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Abc_addDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Abc_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Abc_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Abc_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Abc_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Abc_editDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Abc_editDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Announce_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Announce_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Announce_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Announce_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Area_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Area_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Area_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Area_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Article_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Article_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Article_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Article_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Article_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Article_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Article_move.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Article_move.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Auth_access.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Auth_access.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Auth_addGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Auth_addGroup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Auth_categoryAccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Auth_categoryAccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Auth_editGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Auth_editGroup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Auth_rule.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Auth_rule.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Category_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Category_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Category_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Category_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/ClearHtml_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/ClearHtml_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Comment_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Comment_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Database_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Database_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Database_restore.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Database_restore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Department_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Department_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Department_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Department_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/FreeBlock_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/FreeBlock_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/FreeBlock_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/FreeBlock_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Guestbook_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Guestbook_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Guestbook_reply.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Guestbook_reply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/ItemGroup_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/ItemGroup_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/ItemGroup_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/ItemGroup_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/ItemInfo_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/ItemInfo_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/ItemInfo_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/ItemInfo_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/ItemInfo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/ItemInfo_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Link_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Link_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Link_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Link_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/MemberGroup_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/MemberGroup_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/MemberGroup_categoryAccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/MemberGroup_categoryAccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/MemberGroup_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/MemberGroup_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Member_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Member_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Member_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Member_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Member_person.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Member_person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Menu_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Menu_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Menu_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Menu_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Model_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Model_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Model_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Model_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Picture_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Picture_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Picture_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Picture_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Picture_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Picture_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Picture_move.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Picture_move.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Product_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Product_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Product_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Product_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Product_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Product_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Product_move.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Product_move.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Soft_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Soft_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Soft_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Soft_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Soft_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Soft_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Soft_move.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Soft_move.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Manage/Controller/SpecialController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/Controller/SpecialController.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Manage/View/Special_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Special_add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Manage/View/Special_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Special_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Special_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Special_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/System_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/System_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/System_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/System_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/System_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/System_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Manage/View/Templets_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Manage/View/Templets_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/26a773dcc2f402b31ce327cc1a240129.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/7a8fb156986479335b1e4a52741b3dcd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/c096f83f45fb53c7170e8937d172dd0e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/2e4beb93ad522d2e6e616c2879334b0f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/5e2c43f6c15d7390542d43de7117b5b2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/b5d6b813895d2d0a5c977504ee23db5e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/001d66ac122f26fdb216a67813c2c0d0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/191d9296e25bb0867c2db395b8607705.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/1bc5b4683a81f9a05e2a44da0bde8a24.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/2561d4c50826e6fa9b42b6ba7b2c4d6f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/25a53fff1affbc7edad78ba1ac3ff9fd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/3cc8bde5ba4a71d2e2a3a35e41203817.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/48617f59b87b5c7b4f5d5acd582d0241.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/4ebc11a1895f5e8e802e7f01fa783eb7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/61133fc2539266c1ec2a022003ddc577.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/73add1a7932dfe110fa488a5a5cb0f95.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/80996370cc084b9e2d37a49866dd936e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/923288acae66711b7be9a3acafffce9f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/9832cc9aa1c47b503c860f9680733bb4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/ad4a1e3a42f494f67bc604648c633769.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/e6bd8ad06fdd29e72b0644638308d5e4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/ecb921f9abaa83f40af4edc6ca535e81.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/f6e33f98c5565322bdeee50fc5c7c10b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/f73ae7665f6b2b4e88102808f8ad1236.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Cache/Manage/fc5cdff7150d325d215a284e1b456ab9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_abc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_abcdetail.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_admin.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_announce.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_attachmentindex.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_categoryaccess.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_freeblock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_iteminfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_link.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_picture.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_special.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/website.web_tag.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/config/site.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/fBlock/0b79795d3efc95b9976c7c5b933afce2.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/fCategery_0.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/fCategery_1.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/Data/fCategery_10.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Data/fCategery_2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Logs/Home/19_06_22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Logs/Manage/19_06_22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Temp/2ExM762_4874748bee7c40fc78c1829d85b2c681.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Temp/2ExM762_c928f1004a2ae1d7e13e93f7f179e81e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Temp/2ExM762_fb3a2e122ddd5ec3afddfe04bf78d681.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Runtime/Temp/2ExM762_fe2d781903b7f4f78752229832550fa9.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Runtime/common~runtime.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/ueditor.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/editor/ueditor/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/editor/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/static/bootstrap/3.3.5/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/bootstrap/3.3.5/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/static/bootstrap/3.3.5/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/bootstrap/3.3.5/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/static/jq/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/jq/jquery-1.7.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/static/jq_plugins/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/jq_plugins/layer/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/static/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/static/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Include/Library/Think/Build.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Include/Library/Think/Build.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Include/Library/Think/Template/TagLib/Html.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Include/Library/Think/Template/TagLib/Html.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Include/Library/Vendor/EaseTemplate/template.core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Include/Library/Vendor/EaseTemplate/template.core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install/tpl/step_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Install/tpl/step_3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install/tpl/step_4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Install/tpl/step_4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Home/default/js/FlexSlider/jquery.flexslider-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Home/default/js/FlexSlider/jquery.flexslider-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Home/default/js/FlexSlider/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Home/default/js/FlexSlider/jquery.flexslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Mobile/blog/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Mobile/blog/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Mobile/default/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Mobile/default/js/jquery.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,22 +89,38 @@
     <favorites_list name="website" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Home/web/Index_index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/Home/shop/Index_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            <state relative-caret-position="132">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#!!top" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#div#4;n#!!top" />
+                <element signature="n#div#6;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Public/Home/web/Public_footer.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c71cf874-63e8-49aa-a78a-b5224d18ef4f/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Home/web/List_product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-660" />
           </provider>
         </entry>
       </file>
@@ -177,14 +146,20 @@
       <find>padding-left</find>
       <find>margin-lef</find>
       <find>ml</find>
-      <find>href=&quot;</find>
-      <find>src=&quot;</find>
       <find>display</find>
       <find>abc</find>
+      <find>href=&quot;</find>
+      <find>src=&quot;</find>
+      <find>container</find>
+      <find>logo</find>
+      <find>nav</find>
+      <find>slider-content</find>
+      <find>dataSource</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;a href=&quot;</replace>
       <replace>href=&quot;</replace>
+      <replace>href=&quot;__PUBLIC__/</replace>
       <replace>src=&quot;__PUBLIC__/</replace>
     </replaceStrings>
   </component>
@@ -203,14 +178,12 @@
         <option value="$PROJECT_DIR$/Public/Home/web/assets/css/helper.css" />
         <option value="$PROJECT_DIR$/Public/Home/web/Public_login.html" />
         <option value="$PROJECT_DIR$/Public/Home/web/assets/js/common.js" />
-        <option value="$PROJECT_DIR$/../tpcenter/application/Common/Model/OauthAccess.php" />
         <option value="$PROJECT_DIR$/../tpcenter/application/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/../tpcenter/console.sql" />
         <option value="$PROJECT_DIR$/../tpcenter/config/auth.php" />
         <option value="$PROJECT_DIR$/../tpcenter/application/index/controller/Oauth.php" />
         <option value="$PROJECT_DIR$/../tpcenter/application/index/controller/OauthToken.php" />
         <option value="$PROJECT_DIR$/Public/Home/web/Public_top.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c71cf874-63e8-49aa-a78a-b5224d18ef4f/console.sql" />
         <option value="$PROJECT_DIR$/App/Manage/View/Abc_editDetail.html" />
         <option value="$PROJECT_DIR$/App/Manage/View/Abc_addDetail.html" />
         <option value="$PROJECT_DIR$/App/Common/Common/function.php" />
@@ -219,6 +192,18 @@
         <option value="$PROJECT_DIR$/App/Home/Controller/AbcController.class.php" />
         <option value="$PROJECT_DIR$/Public/Home/web/Public_index.html" />
         <option value="$PROJECT_DIR$/Public/Home/web/Public_footer.html" />
+        <option value="$PROJECT_DIR$/../tpcenter/application/Common/Model/OauthAccess.php" />
+        <option value="$PROJECT_DIR$/Public/Home/shop/Public_footer.html" />
+        <option value="$PROJECT_DIR$/Public/Home/shop/Public_header.html" />
+        <option value="$PROJECT_DIR$/App/Common/Conf/db.php" />
+        <option value="$PROJECT_DIR$/../tpcenter/config/database.php" />
+        <option value="$PROJECT_DIR$/../tpcenter/application/common/model/ProductClass.php" />
+        <option value="$PROJECT_DIR$/Public/Home/shop/Index_index.html" />
+        <option value="$PROJECT_DIR$/Public/Home/shop/Product_index.html" />
+        <option value="$PROJECT_DIR$/App/Manage/Controller/SpecialController.class.php" />
+        <option value="$PROJECT_DIR$/App/Manage/View/Special_add.html" />
+        <option value="$PROJECT_DIR$/App/Manage/View/Special_edit.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c71cf874-63e8-49aa-a78a-b5224d18ef4f/console.sql" />
       </list>
     </option>
   </component>
@@ -230,32 +215,20 @@
     </servers>
   </component>
   <component name="PhpXdebugProxy" ide_key="1" host="localhost" />
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/website.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,13 +251,6 @@
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="47feb1d3:ProjectViewModuleNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="Public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,30 +266,36 @@
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="Public" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tpcenter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\website" />
       <recent name="D:\xampp\htdocs\tpcenter" />
       <recent name="D:\xampp\htdocs\website\Public\Home\web\assets\js" />
       <recent name="D:\xampp\htdocs\website\Public\Home\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\.PhpStorm2019.1\config\consoles\db\c71cf874-63e8-49aa-a78a-b5224d18ef4f" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,37 +325,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560532156546</updated>
-      <workItem from="1560532162853" duration="41132000" />
+      <workItem from="1560532162853" duration="53629000" />
+      <workItem from="1561732750194" duration="11996000" />
+      <workItem from="1561791542116" duration="12953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41132000" />
+    <option name="totallyTimeSpent" value="78578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.50127876" side_tool="true" weight="0.19440243" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.20347957" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.21860817" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924356" weight="0.26065573" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3" />
+      <window_info id="Favorites" order="2" sideWeight="0.50127876" side_tool="true" weight="0.19440243" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2262295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33442622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.102874435" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3590164" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.45409837" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.58196723" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.102874435" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,313 +370,15 @@
           <line>104</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../tpcenter/application/common/model/CartShop.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../tpcenter/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/Middleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/config/app.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/Oauth/Oauth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/Common/Model/OauthAccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/http/middleware/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/Common/Model/OauthRefresh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/config/alias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/Facade/AuthTokenFacade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/oauth/oauth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/OauthToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#123#144#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c71cf874-63e8-49aa-a78a-b5224d18ef4f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Manage/View/Public/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Manage/View/Public_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Manage/View/Abc_editDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="110" column="83" selection-start-line="110" selection-start-column="83" selection-end-line="110" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Manage/View/Abc_addDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="109" column="82" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/blog/Public_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/blog/Show_picture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1892">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/blog/Index_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/default/Index_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/web/Public_top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2658">
-          <caret line="384" column="20" selection-start-line="384" selection-start-column="20" selection-end-line="384" selection-end-column="20" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/default/Public_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/default/Public_login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Common/Conf/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="443" column="104" selection-start-line="443" selection-start-column="104" selection-end-line="443" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Manage/Controller/AbcController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="290" column="37" lean-forward="true" selection-start-line="290" selection-start-column="37" selection-end-line="290" selection-end-column="37" />
-          <folding>
-            <element signature="e#1542#2357#0#PHP" />
-            <element signature="e#2368#3370#0#PHP" />
-            <element signature="e#3379#3756#0#PHP" />
-            <element signature="e#3767#4485#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/web/assets/css/linear-icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbcController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/ThinkPHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/HomeCommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/Library/Think/Controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Runtime/common~runtime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#92786#92804#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/Common/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="713" selection-start-line="713" selection-end-line="713" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/Library/Think/App.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/web/Public_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#yang:abc#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/Library/Think/Think.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/EmptyController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/CartController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/GoController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -747,17 +422,312 @@
         <state relative-caret-position="-264" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/web/Index_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Home/web/Public_footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/model/concern/TimeStamp.php" />
+    <entry file="file://$PROJECT_DIR$/Public/Home/web/Index_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/common/model/OauthAccess.php" />
+    <entry file="file://$PROJECT_DIR$/Public/Home/blog/Index_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/shop/Public_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#1;n#footer#0;n#!!top" />
+            <element signature="n#div#2;n#footer#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-554" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/Conf/debug.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/web/Public_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="328" column="106" selection-start-line="328" selection-start-column="68" selection-end-line="328" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/shop/Public_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="137" column="34" lean-forward="true" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/default/Public_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/web/Public_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="103" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#yang:abc#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/Oauthtoken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1126">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="2230" selection-start-line="2230" selection-end-line="2230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/Cartshop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/common/model/CartShop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/Error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/route/dispatch/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1182">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/db/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="983" selection-start-line="983" selection-end-line="983" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/db/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="935" selection-start-line="935" selection-end-line="935" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="3349" selection-start-line="3349" selection-end-line="3349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/thinkphp/library/think/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/index/controller/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tpcenter/application/common/model/ProductClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="e#36#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/shop/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/shop/List_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Conf/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Manage/Controller/AbcController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2750">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Model/SpecialViewModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Runtime/common~runtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="649" selection-start-line="649" selection-end-line="649" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/Library/Think/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Manage/Controller/SpecialController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="96" column="62" lean-forward="true" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
+          <folding>
+            <element signature="e#1634#2294#0#PHP" />
+            <element signature="e#4793#6267#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Manage/View/Special_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Manage/View/Special_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c71cf874-63e8-49aa-a78a-b5224d18ef4f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/web/List_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/shop/Index_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#4;n#!!top" />
+            <element signature="n#div#6;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -114,7 +114,7 @@ $(function () {
 						</div>
 					</div>
 
-					<div class="form-group" id="JumpUrlDiv" style="display:none;">
+					<div class="form-group" id="JumpUrlDiv">
 						<label for="inputJumpurl" class="col-sm-2 control-label">跳转网址</label>
 						<div class="col-sm-9">
 							<input type="text" name="jump_url" id="inputJumpurl" class="form-control" placeholder="跳转网址" />									
@@ -159,6 +159,14 @@ $(function () {
 							<textarea name="description" id="inputDescription" class="form-control"></textarea>								
 						</div>
 					</div>
+
+					<div class="form-group">
+						<label for="dataSource" class="col-sm-2 control-label">外部数据源</label>
+						<div class="col-sm-9">
+							<input type="text" name="data_source" value="<?php echo ($vo["data_source"]); ?>" class="form-control" placeholder="外部接口地址" />
+						</div>
+					</div>
+
 					<div class="form-group">
 						<label for="inputFilename" class="col-sm-2 control-label">自定义文件名</label>
 						<div class="col-sm-9">
