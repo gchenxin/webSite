@@ -41,4 +41,5 @@ return array(
 
 	'DATA_CACHE_PREFIX'    => '2ExM762_', //S缓存 随机前缀
 
+
 );

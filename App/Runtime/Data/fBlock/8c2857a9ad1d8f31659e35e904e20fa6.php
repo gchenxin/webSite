@@ -1,0 +1,1 @@
+a:5:{s:2:"id";s:1:"2";s:4:"name";s:4:"Logo";s:6:"remark";s:0:"";s:7:"content";s:40:"/uploads/img1/20190628/5d162d45a3400.png";s:10:"block_type";s:1:"2";}

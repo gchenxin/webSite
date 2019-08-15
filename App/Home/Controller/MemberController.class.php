@@ -214,4 +214,25 @@ class MemberController extends HomeCommonController {
 		$this->display();
 	}
 
+    /**
+     * 发送邮件
+     */
+    public function sendPost(){
+        $phone        = I('phone', '', '');
+        $message = I('message', '', '');
+        $result = ['status' => 0,'message'=>'发送成功'];
+        if(!$phone){
+            $result['message'] = '请留下您的联系电话！';
+        }
+        if(!$message){
+            $result['message'] = '内容不能为空！';
+        }
+        $message .= "\n联系电话：{$phone}";
+        $info = send_mail(C('CFG_EMAIL_FROM'),'建议回馈',$message);
+        if($info != true){
+            $result = ['status'=>1,'message'=>$info];
+        }
+        echo $result['status'];
+    }
+
 }

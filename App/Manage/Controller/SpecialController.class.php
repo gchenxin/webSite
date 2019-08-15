@@ -107,9 +107,9 @@ class SpecialController extends CommonController {
 			$this->error('专题名称不能为空');
 		}
 
-		if (empty($data['template'])) {
-			$this->error('请选择专题模板');
-		}
+//		if (empty($data['template'])) {
+//			$this->error('请选择专题模板');
+//		}
 
 		//图片标志
 		if (!empty($pic) && !in_array(B_PIC, $flags)) {
@@ -194,9 +194,9 @@ class SpecialController extends CommonController {
 			$this->error('专题名称不能为空');
 		}
 
-		if (empty($data['template'])) {
-			$this->error('请选择专题模板');
-		}
+//		if (empty($data['template'])) {
+//			$this->error('请选择专题模板');
+//		}
 
 		//图片标志
 		if (!empty($pic) && !in_array(B_PIC, $flags)) {

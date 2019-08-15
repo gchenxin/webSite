@@ -63,39 +63,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer-widget">
                         <div class="footer-widget-title">
-                            <h3>useful link</h3>
+                            <h3>联系我们</h3>
                         </div>
                         <div class="footer-widget-body">
-                            <ul class="useful-link">
-                                <li><a href="#">Delivery</a></li>
-                                <li><a href="#">Legal Notice</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">New products</a></li>
-                                <li><a href="#">best sales</a></li>
-                                <li><a href="#">wishlist</a></li>
-                                <li><a href="#">my account</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-6">
-                    <div class="footer-widget">
-                        <div class="footer-widget-title">
-                            <h3>our company</h3>
-                        </div>
-                        <div class="footer-widget-body">
-                            <ul class="useful-link">
-                                <li><a href="#">Delivery</a></li>
-                                <li><a href="#">Legal Notice</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">secure payment</a></li>
-                                <li><a href="#">contact us</a></li>
-                                <li><a href="#">site map</a></li>
-                                <li><a href="#">login</a></li>
-                            </ul>
+                            <div>
+                                <p>联系方式：</p>
+                                <input type="text" id="from" class="contact-box" />
+                            </div>
+                            <div>
+                                <p>您的建议：</p>
+                                <textarea rows="4" id="message" class="contact-box"></textarea>
+                            </div>
+                            <div>
+                                <input class="sqr-btn subBtn" style="padding: 5px 20px 3px;" type="button" value="提交" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,18 +95,21 @@
                         <div class="footer-widget-body">
                             <ul class="address-box">
                                 <li>
-                                    <span>ADDRESS:</span>
-                                    <p>Melani - Responsive Prestashop Theme<br>
-                                        169-C, Technohub, Dubai Silicon</p>
+                                    <span>公司地址:</span>
+                                    <p><yang:address /></p>
                                 </li>
                                 <li>
-                                    <span>call us now:</span>
-                                    <p>+880123456789</p>
+                                    <span>售前:</span>
+                                    <p><i class="fa fa-phone-square" style="color: lightgreen;font-size: 1.2em"></i>：<yang:phone /><i style="margin-right: 10px;"></i><i class="fa fa-qq" style="color: skyblue"></i>：<yang:phone /></p>
                                 </li>
                                 <li>
-                                    <span>email:</span>
-                                    <p>demo@yourdomain.com</p>
+                                    <span>售后:</span>
+                                    <p><i class="fa fa-phone-square" style="color: lightgreen;font-size: 1.2em"></i>：<yang:phone /><i style="margin-right: 10px;"></i><i class="fa fa-qq" style="color: skyblue"></i>：<yang:phone /></p>
                                 </li>
+<!--                                <li>-->
+<!--                                    <span>email:</span>-->
+<!--                                    <p>demo@yourdomain.com</p>-->
+<!--                                </li>-->
                             </ul>
                         </div>
                     </div>
@@ -144,7 +131,8 @@
                     </div>
                     <div class="col-md-6 ml-auto order-1 order-md-2">
                         <div class="footer-payment">
-                            <img src="__PUBLIC__/assets/img/payment.png" alt="">
+                            <p><yang:copyright /></p>
+<!--                            <img src="__PUBLIC__/assets/img/payment.png" alt="">-->
                         </div>
                     </div>
                 </div>
@@ -154,4 +142,39 @@
     <!-- footer botton area end -->
 
 </footer>
+<script>
+    $(function(){
+        $('.subBtn').click(function(){
+            var phone = $('#from').val();
+            var message = $('#message').val();
+            if(!phone)  {
+                normal('from',4);
+                return;
+            }
+            if(!message)    {
+                normal('message',4);
+                return;
+            }
+
+            $.ajax({
+                url:"{:U('Home/Member/sendPost')}",
+                type:'post',
+                data:{phone:phone,message:message},
+                success: function (data){
+                    console.log(data);
+                    if(parseInt(data) != 0){
+                        layer.msg('未知错误！', {icon: 5,time:2000});
+                    }else{
+                        layer.msg('已提交，感谢您的反馈！', {icon: 6,time:2000});
+                    }
+                },
+                error: function (e){
+                    layer.msg('未知错误！', {icon: 5,time:2000});
+                }
+            });
+        });
+    });
+</script>
 <!-- footer area end -->
+
+<yang:online />

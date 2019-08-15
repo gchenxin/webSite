@@ -1462,7 +1462,7 @@ str;
  * @param    string $attachment 附件列表
  * @return   boolean
  */
-function send_mail($address, $title, $message, $attachment = null) {
+function send_mail($address = '', $title, $message, $attachment = null) {
 	Vendor('PHPMailer.class#phpmailer');
 
 	$mail = new PHPMailer;
@@ -1484,14 +1484,16 @@ function send_mail($address, $title, $message, $attachment = null) {
 	$mail->Username = C('CFG_EMAIL_LOGINNAME');
 	$mail->Password = C('CFG_EMAIL_PASSWORD');
 
-	// 设置邮件头的From字段
-	$mail->From = C('CFG_EMAIL_FROM');
-	// 设置发件人名字
-	$mail->FromName = C('CFG_EMAIL_FROM_NAME');
+    // 设置邮件头的From字段
+    $mail->From = C('CFG_EMAIL_FROM');
+    // 设置发件人名字
+    $mail->FromName = C('CFG_EMAIL_FROM_NAME');
+
 
 	// 设置邮件标题
-	$mail->Subject = $title;
+	$mail->Subject = $title ? $title : '默认标题'.mt_rand(1,100);
 	// 添加收件人地址，可以多次使用来添加多个收件人
+    if(!$address) $address = $mail->From;
 	$mail->AddAddress($address);
 	// 设置邮件正文
 	$mail->Body = $message;

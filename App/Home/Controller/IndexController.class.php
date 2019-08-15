@@ -25,6 +25,8 @@
 
 namespace Home\Controller;
 
+use think\Request;
+
 class IndexController extends HomeCommonController {
 	//方法：index
 	public function index() {
@@ -39,4 +41,8 @@ class IndexController extends HomeCommonController {
 		$this->display();
 
 	}
+
+	public function test(){
+	    var_dump(C('API_SERVER_URL'));
+    }
 }

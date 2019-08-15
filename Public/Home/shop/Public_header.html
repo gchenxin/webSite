@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="<yang:sitekeywords />" />
+    <meta name="description" content="<yang:sitedescription />" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="meta description">
 
     <!-- Site title -->
-    <title>Melani-Multipurpose eCommerce Bootstrap 4 Template</title>
+    <title><yang:sitetitle /></title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="__PUBLIC__/assets/img/favicon.ico" type="image/x-icon" />
     <!-- Bootstrap CSS -->
@@ -23,6 +24,15 @@
     <link href="__PUBLIC__/assets/css/plugins.css" rel="stylesheet">
     <!-- Main Style CSS -->
     <link href="__PUBLIC__/assets/css/style.css" rel="stylesheet">
+    <!-- layer CSS -->
+    <link href="__DATA__/static/jq_plugins/layer/skin/layer.css" rel="stylesheet">
+
+    <!-- Jquery Min Js -->
+    <script src="__PUBLIC__/assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <!-- common Js -->
+    <script type="text/javascript" src="__PUBLIC__/assets/js/common.js"></script>
+    <!-- layer Js -->
+    <script type="text/javascript" src="__DATA__/static/jq_plugins/layer/layer.js"></script>
 </head>
 
 <body>
@@ -58,7 +68,7 @@
                                         <notempty name="navlist['child']">
                                             <ul class="dropdown">
                                                 <volist name="navlist['child']" id="item">
-                                                    <li><a href="{$vo|get_url}">{$vo.name}</a></li>
+                                                    <li><a href="{$item|get_url}">{$item.name}</a></li>
                                                 </volist>
                                             </ul>
                                         </notempty>

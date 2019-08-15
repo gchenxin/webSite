@@ -25,7 +25,7 @@ Table of content
 22. sidebar
 23. footer
 
-¸ü¶à¾«Æ·BootstrapÄ£°åÇë·ÃÎÊ£ºhttp://www.bootstrapmb.com
+ï¿½ï¿½ï¿½à¾«Æ·BootstrapÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê£ï¿½http://www.bootstrapmb.com
 -------------------------------------------------------------------*/
 /*------- Typography Style Start -------*/
 /*------- google fonts -------*/
@@ -1560,6 +1560,7 @@ only screen and (max-width: 767px) {
     padding: 10px 20px 6px;
     text-transform: uppercase;
     display: inline-block;
+    border-radius: 4px;
 }
 
 .sqr-btn:hover {
@@ -6315,6 +6316,19 @@ only screen and (max-width: 767px) {
 .footer-widget .footer-widget-body p {
     color: #707070;
     font-size: 15px;
+    margin-top: 15px;
+}
+
+.footer-widget .footer-widget-body .contact-box {
+    width: 100%;
+    border-radius: 5px;
+    resize: none !important;
+    border: 1px solid lightgray;
+}
+
+.error-border{
+    border: 1px solid darkred;
+    box-shadow: 0 0 5px 2px red;
 }
 
 .useful-link li a {
@@ -6453,5 +6467,4 @@ only screen and (max-width: 767px) {
 .copyright-text.white-bg p {
     color: #bdbdbd;
 }
-
 /*------- footer bottom area end -------*/

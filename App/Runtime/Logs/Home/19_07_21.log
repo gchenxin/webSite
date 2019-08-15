@@ -1,0 +1,33 @@
+[ 2019-07-21T03:40:15+08:00 ] 127.0.0.1 /v/5750-0-0.html
+ERR: 模板不存在:./Public/Home/shop/V_./Public/Home/shop/404.html.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-21T03:40:22+08:00 ] 127.0.0.1 /v/5750-0-0.html
+ERR: 模板不存在:./Public/Home/shop/V_./Public/Home/shop/404.html.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-21T03:53:35+08:00 ] 127.0.0.1 /PV?peerid=0&uri=http://thunderqtypv.union.xunlei.com&src=www.dy2018.com
+ERR: 模板不存在:./Public/Home/shop/PV_./Public/Home/shop/404.html.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-21T03:57:28+08:00 ] 127.0.0.1 /show/5750.html
+ERR: 模板不存在:./Public/Home/shop/Show_./Public/Home/shop/404.html.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-21T22:25:38+08:00 ] 127.0.0.1 /PV?peerid=0&uri=http://thunderqtypv.union.xunlei.com&src=www.qitete.com
+ERR: 模板不存在:./Public/Home/shop/PV_./Public/Home/shop/404.html.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-21T22:31:53+08:00 ] 127.0.0.1 /PV?peerid=0&uri=http://thunderqtypv.union.xunlei.com&src=www.btmao.cc
+ERR: 模板不存在:./Public/Home/shop/PV_./Public/Home/shop/404.html.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\website\App\Runtime\common~runtime.php:1) D:\xampp\htdocs\website\Include\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-21T23:56:17+08:00 ] 127.0.0.1 /
+NOTIC: [8] Undefined index: HTTP_USER_AGENT D:\xampp\htdocs\website\App\Runtime\common~runtime.php 第 46 行.
+

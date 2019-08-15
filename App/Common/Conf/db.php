@@ -7,4 +7,5 @@
   'DB_NAME' => 'website',
   'DB_PREFIX' => 'web_',
   'DB_CHARSET' => 'utf8',
+  'API_SERVER_URL'    =>  'http://39.108.236.117'
 );?>
